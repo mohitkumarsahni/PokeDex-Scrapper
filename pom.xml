@@ -1,0 +1,61 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>sahnimohit</groupId>
+  <artifactId>PokemonScrape</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>PokemonScrape</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/io.minio/minio -->
+    <dependency>
+      <groupId>io.minio</groupId>
+      <artifactId>minio</artifactId>
+      <version>3.0.6</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
+    <dependency>
+      <groupId>org.mongodb</groupId>
+      <artifactId>mongo-java-driver</artifactId>
+      <version>3.4.2</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.datastax.cassandra/cassandra-driver-core -->
+    <dependency>
+      <groupId>com.datastax.cassandra</groupId>
+      <artifactId>cassandra-driver-core</artifactId>
+      <version>3.3.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+    <dependency>
+      <groupId>org.jsoup</groupId>
+      <artifactId>jsoup</artifactId>
+      <version>1.10.3</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.neo4j.driver/neo4j-java-driver -->
+    <dependency>
+      <groupId>org.neo4j.driver</groupId>
+      <artifactId>neo4j-java-driver</artifactId>
+      <version>1.4.1</version>
+    </dependency>
+
+  </dependencies>
+</project>
